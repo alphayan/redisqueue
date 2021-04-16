@@ -1,16 +1,16 @@
 module github.com/alphayan/redisqueue/v3
 
-go 1.12
+go 1.16
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/git-chglog/git-chglog v0.14.1
-	github.com/go-redis/redis/v7 v7.4.0
 	github.com/go-redis/redis/v8 v8.8.0
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.2.0 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
+	github.com/kr/pretty v0.1.0 // indirect
 	github.com/mattn/goveralls v0.0.8
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mitchellh/copystructure v1.1.2 // indirect
@@ -23,4 +23,5 @@ require (
 	golang.org/x/term v0.0.0-20210406210042-72f3dc4e9b72 // indirect
 	golang.org/x/text v0.3.6 // indirect
 	golang.org/x/tools v0.1.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
