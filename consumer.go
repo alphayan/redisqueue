@@ -136,7 +136,6 @@ func NewConsumerWithOptions(options *ConsumerOptions) (*Consumer, error) {
 	if err := redisPreflightChecks(r); err != nil {
 		return nil, err
 	}
-
 	return &Consumer{
 		Errors: make(chan error),
 
