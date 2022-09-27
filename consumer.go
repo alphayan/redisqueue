@@ -159,7 +159,7 @@ func NewConsumerWithOptions(options *ConsumerOptions) (*Consumer, error) {
 //
 // If the consumer group already exists the id field is ignored, meaning you'll
 // receive unprocessed messages.
-func (c *Consumer) RegisterWithLastID(stream string, id string, fn ConsumerFunc) {
+func (c *Consumer) RegisterWithLastID(stream, id string, fn ConsumerFunc) {
 	if len(id) == 0 {
 		id = "0"
 	}
